@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" role="img" aria-labelledby="title">
+<title id="title">SIGVRA</title>
+<g fill="#fff">
+<path d="M40 58h196l-25 38H87l-20 30h132l-25 38H42l-28-38 46-68Zm1 106h133l-20 31H14Z"/>
+<rect x="280" y="58" width="32" height="137"/>
+<path d="M374 58h198v38H421l-42 49 42 50h113v-27h-68v-38h106v65H404l-76-88 76-49Z"/>
+<path d="M642 15 714 94l-30 17-42-50Z"/>
+<path d="m786 15-72 79 30 17 42-50Z"/>
+<path d="M699 0h16v205l-8 28-8-28Z"/>
+<path d="m684 111 23 12v82l-23-24Z"/>
+<path d="m730 111-23 12v82l23-24Z"/>
+<path d="M816 58h178c35 0 58 22 58 55 0 22-11 39-31 48l39 34h-54l-35-30H861v30h-45Zm45 38v31h127c12 0 19-6 19-15s-7-16-19-16Z"/>
+<path d="M1110 58h33l73 137h-49l-41-80-42 80h-48Z"/>
+</g>
+</svg>
