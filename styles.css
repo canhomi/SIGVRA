@@ -1,27 +1,17 @@
 :root{color-scheme:dark;--bg:#000;--fg:#fff}
 *{box-sizing:border-box}
 html,body{min-height:100%;margin:0;background:var(--bg)}
-body{color:var(--fg);font-family:Arial,Helvetica,sans-serif;-webkit-font-smoothing:antialiased;text-rendering:geometricPrecision}
+body{font-family:Arial,Helvetica,sans-serif;color:var(--fg);-webkit-font-smoothing:antialiased}
 .page{position:relative;width:100%;min-height:100svh;overflow:hidden;background:#000}
-.brand{position:absolute;top:clamp(74px,13.5vh,150px);left:50%;width:min(600px,76vw);transform:translateX(-50%)}
+.brand{position:absolute;top:13.8vh;left:50%;width:min(620px,78vw);transform:translateX(-50%)}
 .brand img{display:block;width:100%;height:auto}
-.main-nav{position:absolute;top:40.5%;left:50%;display:flex;flex-direction:column;align-items:center;gap:31px;transform:translate(-50%,-50%)}
-.main-nav a{color:#fff;font-size:clamp(13px,1.15vw,16px);font-weight:400;line-height:1;letter-spacing:.42em;text-decoration:none;text-transform:lowercase;white-space:nowrap}
-.main-nav a:hover,.main-nav a:focus-visible{opacity:.68}
-.socials{position:absolute;bottom:max(42px,calc(env(safe-area-inset-bottom) + 28px));left:50%;display:flex;align-items:center;gap:29px;transform:translateX(-50%)}
-.socials a{display:grid;width:27px;height:27px;place-items:center;color:#fff;text-decoration:none}
+.main-nav{position:absolute;top:40.2%;left:50%;display:flex;flex-direction:column;align-items:center;gap:29px;transform:translate(-50%,-50%)}
+.main-nav a{color:#fff;font-size:14px;font-weight:400;line-height:1;letter-spacing:.42em;text-decoration:none;text-transform:lowercase}
+.socials{position:absolute;bottom:max(42px,calc(env(safe-area-inset-bottom) + 28px));left:50%;display:flex;align-items:center;gap:27px;transform:translateX(-50%)}
+.socials a{display:grid;width:26px;height:26px;place-items:center;color:#fff;text-decoration:none}
 .socials svg{display:block;width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round}
 .socials .filled{fill:currentColor;stroke:none}
-.socials a:hover,.socials a:focus-visible{opacity:.65}
-@media(max-width:600px){
-  .brand{top:13.8vh;width:76vw}
-  .main-nav{top:40.2%;gap:29px}
-  .main-nav a{font-size:14px;letter-spacing:.42em}
-  .socials{gap:27px}
-  .socials a{width:26px;height:26px}
-}
-@media(max-height:700px){
-  .brand{top:8vh;width:min(500px,70vw)}
-  .main-nav{top:42%}
-  .socials{bottom:22px}
+@media(min-width:700px){
+  .brand{top:10vh;width:min(650px,46vw)}
+  .main-nav{top:41%}
 }
